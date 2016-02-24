@@ -38,6 +38,8 @@ app.get('/me', function(req, res){
 	res.send(req.user);
 });
 
+
+//starts a server
 app.listen(3000, function () {
   console.log('App listening on localhost:3000');
 });
